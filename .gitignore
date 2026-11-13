@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.tcp_monitor.lock
+tcp_monitoring_data.json
+tcp_monitor_status.txt
+tcp_monitor.log
+~$*
+*.xlsx
+*.xlsm
+!/modelo/tcp_monitoring_template.xlsx
