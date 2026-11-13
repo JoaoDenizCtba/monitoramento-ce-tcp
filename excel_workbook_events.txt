@@ -1,0 +1,7 @@
+Private Sub Workbook_Open()
+    IniciarAtualizacaoStatus
+End Sub
+
+Private Sub Workbook_BeforeClose(Cancel As Boolean)
+    CancelarAtualizacaoStatus
+End Sub
